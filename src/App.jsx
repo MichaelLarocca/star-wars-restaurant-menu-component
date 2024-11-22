@@ -43,6 +43,15 @@ function App() {
       >
         c
       </div>
+      <div
+        className={styles.Tt}
+        style={{
+          backgroundImage: `url(${starWarsImage})`,
+          backgroundPosition: "-323px -405px",
+        }}
+      >
+        Tt
+      </div>
     </>
   );
 }
