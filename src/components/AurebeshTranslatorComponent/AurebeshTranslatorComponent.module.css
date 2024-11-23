@@ -342,107 +342,105 @@
   background: url(/StarWars.png) -480px -275px;
 }
 
-.Aa {
+.period {
   width: 30px;
   height: 30px;
   background: url(/StarWars.png) -10px -350px;
 }
-.Bb {
+
+.comma {
   width: 30px;
   height: 30px;
   background: url(/StarWars.png) -62px -350px;
 }
-.Cc {
+.semicolon {
   width: 30px;
   height: 30px;
   background: url(/StarWars.png) -114px -350px;
 }
-.Dd {
+.colon {
   width: 30px;
   height: 30px;
   background: url(/StarWars.png) -165px -350px;
 }
-.Ee {
+.at {
   width: 30px;
   height: 30px;
   background: url(/StarWars.png) -218px -350px;
 }
-.Ff {
+.pound {
   width: 30px;
   height: 30px;
   background: url(/StarWars.png) -271px -350px;
 }
-.Gg {
+.apostrophe {
   width: 30px;
   height: 30px;
   background: url(/StarWars.png) -324px -348px;
 }
-.Hh {
+.exclamation-point {
   width: 30px;
   height: 30px;
   background: url(/StarWars.png) -375px -350px;
 }
-.Ii {
+.double-quote {
   width: 30px;
   height: 30px;
   background: url(/StarWars.png) -425px -350px;
 }
-.Jj {
+.forward-slash {
   width: 30px;
   height: 30px;
   background: url(/StarWars.png) -480px -350px;
 }
-.Kk {
+.question-mark {
   width: 30px;
   height: 30px;
   background: url(/StarWars.png) -532px -350px;
 }
-.Ll {
+.less-than {
   width: 30px;
   height: 30px;
   background: url(/StarWars.png) -585px -350px;
 }
-.Mm {
+.greater-than {
   width: 30px;
   height: 30px;
   background: url(/StarWars.png) -637px -350px;
 }
 
-.Nn {
+.percent-sign {
   width: 30px;
   height: 30px;
   background: url(/StarWars.png) -10px -405px;
 }
-.Oo {
+.ampersand {
   width: 30px;
   height: 30px;
   background: url(/StarWars.png) -62px -405px;
 }
-.Pp {
+.asterisk {
   width: 30px;
   height: 30px;
   background: url(/StarWars.png) -115px -405px;
 }
-.Qq {
+.opening-parenthesis {
   width: 30px;
   height: 30px;
   background: url(/StarWars.png) -165px -405px;
 }
-.Rr {
+.closing-parenthesis {
   width: 30px;
   height: 30px;
   background: url(/StarWars.png) -220px -405px;
 }
-.Ss {
+
+.box {
   width: 30px;
   height: 30px;
   background: url(/StarWars.png) -271px -405px;
 }
-.Tt {
-  width: 30px;
-  height: 30px;
-  background: url(/StarWars.png) -323px -405px;
-}
+
 .credit {
   width: 30px;
   height: 30px;

@@ -12,10 +12,16 @@ function App() {
       <h1>Aurebesh Translator</h1>
 
       <div className="App">
-        <h1>Aurebesh Translator</h1>
         <AurebeshTranslatorComponent
-          text="$ ahsoka tano"
-          scale={0.8}
+          text={`obi wan cannoli: $4.99`}
+          scale={0.5}
+          isWhite={false}
+        />
+      </div>
+      <div className="App">
+        <AurebeshTranslatorComponent
+          text={`caff: $1`}
+          scale={0.5}
           isWhite={false}
         />
       </div>
