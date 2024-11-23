@@ -1,6 +1,11 @@
 import { aurebeshTranslator } from "../../utils/aurebeshTranslator.jsx";
 
-const AurebeshTranslatorComponent = ({ text, scale = 1, isWhite = false }) => {
+const AurebeshTranslatorComponent = ({
+  text,
+  scale = 1,
+  isWhite = false,
+  ...rest
+}) => {
   return (
     <div>
       <h3>Aurebesh Translator</h3>

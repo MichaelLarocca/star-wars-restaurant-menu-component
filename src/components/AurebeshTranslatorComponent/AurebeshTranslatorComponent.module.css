@@ -443,3 +443,13 @@
   height: 30px;
   background: url(/StarWars.png) -323px -405px;
 }
+.credit {
+  width: 30px;
+  height: 30px;
+  background: url(/StarWars.png) -323px -405px;
+}
+.space {
+  width: 30px;
+  height: 30px;
+  background: url(/StarWars.png) -374px -405px; /* Example position for space */
+}

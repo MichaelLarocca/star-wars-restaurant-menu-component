@@ -1,89 +1,126 @@
-import image from "../components/AurebeshTranslatorComponent/StarWars.png";
+import imageAurebesh from "../components/AurebeshTranslatorComponent/StarWars.png";
 import cssFile from "../components/AurebeshTranslatorComponent/AurebeshTranslatorComponent.module.css";
 
-// Mapping of English letters to Aurebesh CSS classes
+// Mapping of English letters to Aurebesh CSS classes and background positions
 const aurebeshMap = {
-  A: "A",
-  B: "B",
-  C: "C",
-  D: "D",
-  E: "E",
-  F: "F",
-  G: "G",
-  H: "H",
-  I: "I",
-  J: "J",
-  K: "K",
-  L: "L",
-  M: "M",
-  N: "N",
-  O: "O",
-  P: "P",
-  Q: "Q",
-  R: "R",
-  S: "S",
-  T: "T",
-  U: "U",
-  V: "V",
-  W: "W",
-  X: "X",
-  Y: "Y",
-  Z: "Z",
-  a: "a",
-  b: "b",
-  c: "c",
-  d: "d",
-  e: "e",
-  f: "f",
-  g: "g",
-  h: "h",
-  i: "i",
-  j: "j",
-  k: "k",
-  l: "l",
-  m: "m",
-  n: "n",
-  o: "o",
-  p: "p",
-  q: "q",
-  r: "r",
-  s: "s",
-  t: "t",
-  u: "u",
-  v: "v",
-  w: "w",
-  x: "x",
-  y: "y",
-  z: "z",
-  0: "zero",
-  1: "one",
-  2: "two",
-  3: "three",
-  4: "four",
-  5: "five",
-  6: "six",
-  7: "seven",
-  8: "eight",
-  9: "nine",
-  " ": "space",
-  $: "dollar", // Add a class for the dollar sign if needed
+  A: { class: "A", position: "-10px -15px" },
+  B: { class: "B", position: "-62px -15px" },
+  C: { class: "C", position: "-115px -15px" },
+  D: { class: "D", position: "-167px -15px" },
+  E: { class: "E", position: "-218px -15px" },
+  F: { class: "F", position: "-271px -15px" },
+  G: { class: "G", position: "-323px -15px" },
+  H: { class: "H", position: "-375px -15px" },
+  I: { class: "I", position: "-425px -15px" },
+  J: { class: "J", position: "-481px -15px" },
+  K: { class: "K", position: "-533px -15px" },
+  L: { class: "L", position: "-583px -15px" },
+  M: { class: "M", position: "-637px -15px" },
+  N: { class: "N", position: "-10px -70px" },
+  O: { class: "O", position: "-62px -70px" },
+  P: { class: "P", position: "-114px -70px" },
+  Q: { class: "Q", position: "-167px -72px" },
+  R: { class: "R", position: "-218px -70px" },
+  S: { class: "S", position: "-270px -70px" },
+  T: { class: "T", position: "-323px -70px" },
+  U: { class: "U", position: "-375px -70px" },
+  V: { class: "V", position: "-428px -70px" },
+  W: { class: "W", position: "-480px -70px" },
+  X: { class: "X", position: "-533px -70px" },
+  Y: { class: "Y", position: "-585px -70px" },
+  Z: { class: "Z", position: "-637px -70px" },
+  a: { class: "a", position: "-8px -145px" },
+  b: { class: "b", position: "-62px -145px" },
+  c: { class: "c", position: "-115px -145px" },
+  d: { class: "d", position: "-165px -145px" },
+  e: { class: "e", position: "-219px -145px" },
+  f: { class: "f", position: "-271px -145px" },
+  g: { class: "g", position: "-322px -145px" },
+  h: { class: "h", position: "-375px -145px" },
+  i: { class: "i", position: "-430px -145px" },
+  j: { class: "j", position: "-480px -145px" },
+  k: { class: "k", position: "-533px -145px" },
+  l: { class: "l", position: "-587px -145px" },
+  m: { class: "m", position: "-638px -145px" },
+  n: { class: "n", position: "-10px -200px" },
+  o: { class: "o", position: "-62px -200px" },
+  p: { class: "p", position: "-115px -200px" },
+  q: { class: "q", position: "-165px -201px" },
+  r: { class: "r", position: "-218px -200px" },
+  s: { class: "s", position: "-271px -200px" },
+  t: { class: "t", position: "-323px -200px" },
+  u: { class: "u", position: "-375px -200px" },
+  v: { class: "v", position: "-428px -200px" },
+  w: { class: "w", position: "-480px -200px" },
+  x: { class: "x", position: "-533px -200px" },
+  y: { class: "y", position: "-585px -200px" },
+  z: { class: "z", position: "-637px -200px" },
+  0: { class: "zero", position: "-10px -275px" },
+  1: { class: "one", position: "-60px -275px" },
+  2: { class: "two", position: "-113px -275px" },
+  3: { class: "three", position: "-165px -275px" },
+  4: { class: "four", position: "-219px -275px" },
+  5: { class: "five", position: "-270px -275px" },
+  6: { class: "six", position: "-323px -275px" },
+  7: { class: "seven", position: "-375px -275px" },
+  8: { class: "eight", position: "-428px -275px" },
+  9: { class: "nine", position: "-480px -275px" },
+  " ": { class: "space", position: "-374px -405px" },
+  $: { class: "credit", position: "-323px -405px" }, // Example for dollar sign
 };
+
+// // Function to translate text to Aurebesh
+// export function aurebeshTranslator(text, scale = 1, isWhite = false) {
+//   return (
+//     <div>
+//       {/* Temporary image display for debugging */}
+//       <img
+//         src={imageAurebesh}
+//         alt="Aurebesh Sprite"
+//         style={{ display: "block", marginBottom: "10px" }}
+//       />
+
+//       {text.split("").map((char, index) => {
+//         const { class: aurebeshClass, position } = aurebeshMap[char] || {};
+//         return (
+//           <div
+//             key={index}
+//             className={`${cssFile[aurebeshClass]}`}
+//             style={{
+//               width: "30px",
+//               height: "30px",
+//               transform: `scale(${scale})`,
+//               filter: isWhite ? "invert(100%)" : "invert(0%)",
+//               background: `url(${imageAurebesh}) ${position}`,
+//             }}
+//           />
+//         );
+//       })}
+//     </div>
+//   );
+// }
 
 // Function to translate text to Aurebesh
 export function aurebeshTranslator(text, scale = 1, isWhite = false) {
   return text.split("").map((char, index) => {
-    const aurebeshClass = aurebeshMap[char] || "";
+    const { class: aurebeshClass, position } = aurebeshMap[char] || {};
+    if (!aurebeshClass) {
+      console.warn(`Character "${char}" not found in aurebeshMap.`);
+      return null;
+    }
     return (
       <div
         key={index}
-        className={`${cssFile["image-1"]} ${aurebeshClass}`}
+        className={cssFile[aurebeshClass]}
         style={{
+          width: "30px",
+          height: "30px",
           transform: `scale(${scale})`,
           filter: isWhite ? "invert(100%)" : "invert(0%)",
+          backgroundImage: `url(${imageAurebesh})`,
+          backgroundPosition: position,
         }}
-      >
-        <img width="1" height="1" src={image} alt="" />
-      </div>
+      />
     );
   });
 }
