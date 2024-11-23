@@ -140,6 +140,8 @@ export function aurebeshTranslator(text, scale = 1, isWhite = false) {
           filter: isWhite ? "invert(100%)" : "invert(0%)",
           backgroundImage: `url(${imageAurebesh})`,
           backgroundPosition: position,
+          marginRight: aurebeshClass === "space" ? "-10px" : "-5px",
+          marginLeft: aurebeshClass === "space" ? "-10px" : "-5px",
         }}
       />
     );

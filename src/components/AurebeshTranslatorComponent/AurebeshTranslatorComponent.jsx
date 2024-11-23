@@ -7,6 +7,9 @@ const AurebeshTranslatorComponent = ({
   ...rest
 }) => {
   return (
+    // <div style={{ display: "flex", alignItems: "center" }}>
+    //   {aurebeshTranslator(text, scale, isWhite)}
+    // </div>
     <div style={{ display: "flex", alignItems: "center" }}>
       {aurebeshTranslator(text, scale, isWhite)}
     </div>
