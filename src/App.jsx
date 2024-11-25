@@ -13,6 +13,7 @@ function App() {
 					scale={0.5}
 					isWhite={false}
 					isVertical={false}
+					isAurebesh={true}
 				/>
 			</div>
 			<div className="App">
@@ -20,7 +21,8 @@ function App() {
 					text={`caff: $1`}
 					scale={0.5}
 					isWhite={false}
-					isVertical={false}
+					isVertical={true}
+					isAurebesh={true}
 				/>
 			</div>
 		</>

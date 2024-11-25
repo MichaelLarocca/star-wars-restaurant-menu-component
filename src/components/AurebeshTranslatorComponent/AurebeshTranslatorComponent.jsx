@@ -6,13 +6,15 @@ function AurebeshTranslatorComponent({
 	scale = 1,
 	isWhite = false,
 	isVertical = false,
+	isAurebesh = true,
 	...rest
 }) {
 	const [vertical, setVertical] = useState(isVertical);
+	const [aurebesh, setAurebesh] = useState(isAurebesh);
 
 	return (
 		<div style={{ display: vertical ? "block" : "flex", alignItems: "center" }}>
-			{aurebeshTranslator(text, scale, isWhite, vertical)}
+			{aurebesh ? aurebeshTranslator(text, scale, isWhite, vertical) : text}
 		</div>
 	);
 }
