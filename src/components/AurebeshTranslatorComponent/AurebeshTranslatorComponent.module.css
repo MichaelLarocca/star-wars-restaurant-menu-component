@@ -1,26 +1,7 @@
-/* body {
-    background-color: .777;
-    margin: 0;
-    padding: 0;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-  } */
-
-.image-1 {
-  border: 1px solid blue;
-  filter: invert(98%) sepia(38%) saturate(3207%) hue-rotate(0deg)
-    brightness(95%) contrast(80%);
+.verticalText {
+  writing-mode: vertical-rl;
+  text-orientation: upright;
 }
-
-/* .container {
-    border: 1px solid red;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-    background-color: orange;
-  } */
 
 .A {
   width: 30px;
