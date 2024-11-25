@@ -4,12 +4,11 @@ import { aurebeshTranslator } from "../../utils/aurebeshTranslator.jsx";
 import cssFile from "../AurebeshTranslatorComponent/AurebeshTranslatorComponent.module.css";
 
 function AurebeshTranslatorComponent({
-  text,
+  data,
   scale = 1,
   isWhite = false,
   isVertical = false,
   isAurebesh = true,
-  ...rest
 }) {
   const [vertical, setVertical] = useState(isVertical);
   const [aurebesh, setAurebesh] = useState(isAurebesh);
@@ -19,7 +18,7 @@ function AurebeshTranslatorComponent({
       style={{ display: vertical ? "block" : "flex", alignItems: "center" }}
       className={vertical && !isAurebesh ? cssFile.verticalText : ""}
     >
-      {aurebesh ? aurebeshTranslator(text, scale, isWhite, vertical) : text}
+      {aurebesh ? aurebeshTranslator(data, scale, isWhite, vertical) : data}
     </div>
   );
 }

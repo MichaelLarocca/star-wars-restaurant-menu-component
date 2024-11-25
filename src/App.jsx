@@ -1,30 +1,24 @@
 import "./App.css";
-// import stylesAurebesh from "./components/AurebeshTranslatorComponent/AurebeshTranslatorComponent.module.css";
 import AurebeshTranslatorComponent from "./components/AurebeshTranslatorComponent/AurebeshTranslatorComponent.jsx";
-// import starWarsImage from "./components/AurebeshTranslatorComponent/StarWars.png";
 
 function App() {
   return (
     <>
       <h1>Aurebesh Translator</h1>
-      <div className="App">
-        <AurebeshTranslatorComponent
-          text={`ahsoka tano `}
-          scale={1.5}
-          isWhite={true}
-          isVertical={true}
-          isAurebesh={true}
-        />
-      </div>
-      <div className="App">
-        <AurebeshTranslatorComponent
-          text={`may the force be with you`}
-          scale={1}
-          isWhite={true}
-          isVertical={false}
-          isAurebesh={true}
-        />
-      </div>
+      <AurebeshTranslatorComponent
+        data={`luke skywalker `}
+        scale={1}
+        isWhite={false}
+        isVertical={true}
+        isAurebesh={true}
+      />
+      <AurebeshTranslatorComponent
+        data={`may the force be with you`}
+        scale={0.5}
+        isWhite={false}
+        isVertical={false}
+        isAurebesh={true}
+      />
     </>
   );
 }
