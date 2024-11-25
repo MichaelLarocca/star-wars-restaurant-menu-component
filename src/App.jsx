@@ -9,21 +9,21 @@ function App() {
       <h1>Aurebesh Translator</h1>
       <div className="App">
         <AurebeshTranslatorComponent
-          text={`obi wan cannoli: $4.99`}
-          scale={1}
-          isWhite={false}
-          isVertical={false}
+          text={`ahsoka tano `}
+          scale={1.5}
+          isWhite={true}
+          isVertical={true}
           isAurebesh={true}
         />
       </div>
       <div className="App">
-        {/* <AurebeshTranslatorComponent
-          text={`caff: $1`}
-          scale={0.5}
-          isWhite={false}
-          isVertical={true}
+        <AurebeshTranslatorComponent
+          text={`may the force be with you`}
+          scale={1}
+          isWhite={true}
+          isVertical={false}
           isAurebesh={true}
-        /> */}
+        />
       </div>
     </>
   );

@@ -4,431 +4,431 @@
 }
 
 .A {
-  width: 30px;
-  height: 30px;
+  min-width: 30px;
+  min-height: 30px;
   background: url(/StarWars.png) -10px -15px;
 }
 .B {
-  width: 30px;
-  height: 30px;
+  min-width: 30px;
+  min-height: 30px;
   background: url(/StarWars.png) -62px -15px;
 }
 .C {
-  width: 30px;
-  height: 30px;
+  min-width: 30px;
+  min-height: 30px;
   background: url(/StarWars.png) -115px -15px;
 }
 .D {
-  width: 30px;
-  height: 30px;
+  min-width: 30px;
+  min-height: 30px;
   background: url(/StarWars.png) -167px -15px;
 }
 .E {
-  width: 30px;
-  height: 30px;
+  min-width: 30px;
+  min-height: 30px;
   background: url(/StarWars.png) -218px -15px;
 }
 .F {
-  width: 30px;
-  height: 30px;
+  min-width: 30px;
+  min-height: 30px;
   background: url(/StarWars.png) -271px -15px;
 }
 .G {
-  width: 30px;
-  height: 30px;
+  min-width: 30px;
+  min-height: 30px;
   background: url(/StarWars.png) -323px -15px;
 }
 .H {
-  width: 30px;
-  height: 30px;
+  min-width: 30px;
+  min-height: 30px;
   background: url(/StarWars.png) -375px -15px;
 }
 .I {
-  width: 30px;
-  height: 30px;
+  min-width: 30px;
+  min-height: 30px;
   background: url(/StarWars.png) -425px -15px;
 }
 .J {
-  width: 30px;
-  height: 30px;
+  min-width: 30px;
+  min-height: 30px;
   background: url(/StarWars.png) -481px -15px;
 }
 .K {
-  width: 30px;
-  height: 30px;
+  min-width: 30px;
+  min-height: 30px;
   background: url(/StarWars.png) -533px -15px;
 }
 .L {
-  width: 30px;
-  height: 30px;
+  min-width: 30px;
+  min-height: 30px;
   background: url(/StarWars.png) -583px -15px;
 }
 .M {
-  width: 30px;
-  height: 30px;
+  min-width: 30px;
+  min-height: 30px;
   background: url(/StarWars.png) -637px -15px;
 }
 
 .N {
-  width: 30px;
-  height: 30px;
+  min-width: 30px;
+  min-height: 30px;
   background: url(/StarWars.png) -10px -70px;
 }
 .O {
-  width: 30px;
-  height: 30px;
+  min-width: 30px;
+  min-height: 30px;
   background: url(/StarWars.png) -62px -70px;
 }
 .P {
-  width: 30px;
-  height: 30px;
+  min-width: 30px;
+  min-height: 30px;
   background: url(/StarWars.png) -114px -70px;
 }
 .Q {
-  width: 30px;
-  height: 30px;
+  min-width: 30px;
+  min-height: 30px;
   background: url(/StarWars.png) -167px -72px;
 }
 .R {
-  width: 30px;
-  height: 30px;
+  min-width: 30px;
+  min-height: 30px;
   background: url(/StarWars.png) -218px -70px;
 }
 .S {
-  width: 30px;
-  height: 30px;
+  min-width: 30px;
+  min-height: 30px;
   background: url(/StarWars.png) -270px -70px;
 }
 .T {
-  width: 30px;
-  height: 30px;
+  min-width: 30px;
+  min-height: 30px;
   background: url(/StarWars.png) -323px -70px;
 }
 .U {
-  width: 30px;
-  height: 30px;
+  min-width: 30px;
+  min-height: 30px;
   background: url(/StarWars.png) -375px -70px;
 }
 .V {
-  width: 30px;
-  height: 30px;
+  min-width: 30px;
+  min-height: 30px;
   background: url(/StarWars.png) -428px -70px;
 }
 .W {
-  width: 30px;
-  height: 30px;
+  min-width: 30px;
+  min-height: 30px;
   background: url(/StarWars.png) -480px -70px;
 }
 .X {
-  width: 30px;
-  height: 30px;
+  min-width: 30px;
+  min-height: 30px;
   background: url(/StarWars.png) -533px -70px;
 }
 .Y {
-  width: 30px;
-  height: 30px;
+  min-width: 30px;
+  min-height: 30px;
   background: url(/StarWars.png) -585px -70px;
 }
 .Z {
-  width: 30px;
-  height: 30px;
+  min-width: 30px;
+  min-height: 30px;
   background: url(/StarWars.png) -637px -70px;
 }
 .a {
   border: 1px sold red;
   color: red;
-  width: 30px;
-  height: 30px;
+  min-width: 30px;
+  min-height: 30px;
   background: url(/StarWars.png) -8px -145px;
 }
 .b {
   border: 1px sold red;
   color: red;
-  width: 30px;
-  height: 30px;
+  min-width: 30px;
+  min-height: 30px;
   background: url(/StarWars.png) -62px -145px;
 }
 .c {
   border: 1px sold red;
   color: red;
-  width: 30px;
-  height: 30px;
+  min-width: 30px;
+  min-height: 30px;
   background: url(/StarWars.png) -115px -145px;
 }
 .d {
-  width: 30px;
-  height: 30px;
+  min-width: 30px;
+  min-height: 30px;
   background: url(/StarWars.png) -165px -145px;
 }
 .e {
-  width: 30px;
-  height: 30px;
+  min-width: 30px;
+  min-height: 30px;
   background: url(/StarWars.png) -219px -145px;
 }
 .f {
-  width: 30px;
-  height: 30px;
+  min-width: 30px;
+  min-height: 30px;
   background: url(/StarWars.png) -271px -145px;
 }
 .g {
-  width: 30px;
-  height: 30px;
+  min-width: 30px;
+  min-height: 30px;
   background: url(/StarWars.png) -322px -145px;
 }
 .h {
-  width: 30px;
-  height: 30px;
+  min-width: 30px;
+  min-height: 30px;
   background: url(/StarWars.png) -375px -145px;
 }
 .i {
-  width: 30px;
-  height: 30px;
+  min-width: 30px;
+  min-height: 30px;
   background: url(/StarWars.png) -430px -145px;
 }
 .j {
-  width: 30px;
-  height: 30px;
+  min-width: 30px;
+  min-height: 30px;
   background: url(/StarWars.png) -480px -145px;
 }
 .k {
-  width: 30px;
-  height: 30px;
+  min-width: 30px;
+  min-height: 30px;
   background: url(/StarWars.png) -533px -145px;
 }
 .l {
-  width: 30px;
-  height: 30px;
+  min-width: 30px;
+  min-height: 30px;
   background: url(/StarWars.png) -587px -145px;
 }
 .m {
-  width: 30px;
-  height: 30px;
+  min-width: 30px;
+  min-height: 30px;
   background: url(/StarWars.png) -638px -145px;
 }
 
 .n {
-  width: 30px;
-  height: 30px;
+  min-width: 30px;
+  min-height: 30px;
   background: url(/StarWars.png) -10px -200px;
 }
 .o {
-  width: 30px;
-  height: 30px;
+  min-width: 30px;
+  min-height: 30px;
   background: url(/StarWars.png) -62px -200px;
 }
 .p {
-  width: 30px;
-  height: 30px;
+  min-width: 30px;
+  min-height: 30px;
   background: url(/StarWars.png) -115px -200px;
 }
 .q {
-  width: 30px;
-  height: 30px;
+  min-width: 30px;
+  min-height: 30px;
   background: url(/StarWars.png) -165px -201px;
 }
 .r {
-  width: 30px;
-  height: 30px;
+  min-width: 30px;
+  min-height: 30px;
   background: url(/StarWars.png) -218px -200px;
 }
 .s {
-  width: 30px;
-  height: 30px;
+  min-width: 30px;
+  min-height: 30px;
   background: url(/StarWars.png) -271px -200px;
 }
 .t {
-  width: 30px;
-  height: 30px;
+  min-width: 30px;
+  min-height: 30px;
   background: url(/StarWars.png) -323px -200px;
 }
 .u {
-  width: 30px;
-  height: 30px;
+  min-width: 30px;
+  min-height: 30px;
   background: url(/StarWars.png) -375px -200px;
 }
 .v {
-  width: 30px;
-  height: 30px;
+  min-width: 30px;
+  min-height: 30px;
   background: url(/StarWars.png) -428px -200px;
 }
 .w {
-  width: 30px;
-  height: 30px;
+  min-width: 30px;
+  min-height: 30px;
   background: url(/StarWars.png) -480px -200px;
 }
 .x {
-  width: 30px;
-  height: 30px;
+  min-width: 30px;
+  min-height: 30px;
   background: url(/StarWars.png) -533px -200px;
 }
 .y {
-  width: 30px;
-  height: 30px;
+  min-width: 30px;
+  min-height: 30px;
   background: url(/StarWars.png) -585px -200px;
 }
 .z {
-  width: 30px;
-  height: 30px;
+  min-width: 30px;
+  min-height: 30px;
   background: url(/StarWars.png) -637px -200px;
 }
 
 .zero {
-  width: 30px;
-  height: 30px;
+  min-width: 30px;
+  min-height: 30px;
   background: url(/StarWars.png) -10px -275px;
 }
 .one {
-  width: 30px;
-  height: 30px;
+  min-width: 30px;
+  min-height: 30px;
   background: url(/StarWars.png) -60px -275px;
 }
 .two {
-  width: 30px;
-  height: 30px;
+  min-width: 30px;
+  min-height: 30px;
   background: url(/StarWars.png) -113px -275px;
 }
 .three {
-  width: 30px;
-  height: 30px;
+  min-width: 30px;
+  min-height: 30px;
   background: url(/StarWars.png) -165px -275px;
 }
 .four {
-  width: 30px;
-  height: 30px;
+  min-width: 30px;
+  min-height: 30px;
   background: url(/StarWars.png) -219px -275px;
 }
 .five {
-  width: 30px;
-  height: 30px;
+  min-width: 30px;
+  min-height: 30px;
   background: url(/StarWars.png) -270px -275px;
 }
 .six {
-  width: 30px;
-  height: 30px;
+  min-width: 30px;
+  min-height: 30px;
   background: url(/StarWars.png) -323px -275px;
 }
 .seven {
-  width: 30px;
-  height: 30px;
+  min-width: 30px;
+  min-height: 30px;
   background: url(/StarWars.png) -375px -275px;
 }
 .eight {
-  width: 30px;
-  height: 30px;
+  min-width: 30px;
+  min-height: 30px;
   background: url(/StarWars.png) -428px -275px;
 }
 .nine {
-  width: 30px;
-  height: 30px;
+  min-width: 30px;
+  min-height: 30px;
   background: url(/StarWars.png) -480px -275px;
 }
 
 .period {
-  width: 30px;
-  height: 30px;
+  min-width: 30px;
+  min-height: 30px;
   background: url(/StarWars.png) -10px -350px;
 }
 
 .comma {
-  width: 30px;
-  height: 30px;
+  min-width: 30px;
+  min-height: 30px;
   background: url(/StarWars.png) -62px -350px;
 }
 .semicolon {
-  width: 30px;
-  height: 30px;
+  min-width: 30px;
+  min-height: 30px;
   background: url(/StarWars.png) -114px -350px;
 }
 .colon {
-  width: 30px;
-  height: 30px;
+  min-width: 30px;
+  min-height: 30px;
   background: url(/StarWars.png) -165px -350px;
 }
 .at {
-  width: 30px;
-  height: 30px;
+  min-width: 30px;
+  min-height: 30px;
   background: url(/StarWars.png) -218px -350px;
 }
 .pound {
-  width: 30px;
-  height: 30px;
+  min-width: 30px;
+  min-height: 30px;
   background: url(/StarWars.png) -271px -350px;
 }
 .apostrophe {
-  width: 30px;
-  height: 30px;
+  min-width: 30px;
+  min-height: 30px;
   background: url(/StarWars.png) -324px -348px;
 }
 .exclamation-point {
-  width: 30px;
-  height: 30px;
+  min-width: 30px;
+  min-height: 30px;
   background: url(/StarWars.png) -375px -350px;
 }
 .double-quote {
-  width: 30px;
-  height: 30px;
+  min-width: 30px;
+  min-height: 30px;
   background: url(/StarWars.png) -425px -350px;
 }
 .forward-slash {
-  width: 30px;
-  height: 30px;
+  min-width: 30px;
+  min-height: 30px;
   background: url(/StarWars.png) -480px -350px;
 }
 .question-mark {
-  width: 30px;
-  height: 30px;
+  min-width: 30px;
+  min-height: 30px;
   background: url(/StarWars.png) -532px -350px;
 }
 .less-than {
-  width: 30px;
-  height: 30px;
+  min-width: 30px;
+  min-height: 30px;
   background: url(/StarWars.png) -585px -350px;
 }
 .greater-than {
-  width: 30px;
-  height: 30px;
+  min-width: 30px;
+  min-height: 30px;
   background: url(/StarWars.png) -637px -350px;
 }
 
 .percent-sign {
-  width: 30px;
-  height: 30px;
+  min-width: 30px;
+  min-height: 30px;
   background: url(/StarWars.png) -10px -405px;
 }
 .ampersand {
-  width: 30px;
-  height: 30px;
+  min-width: 30px;
+  min-height: 30px;
   background: url(/StarWars.png) -62px -405px;
 }
 .asterisk {
-  width: 30px;
-  height: 30px;
+  min-width: 30px;
+  min-height: 30px;
   background: url(/StarWars.png) -115px -405px;
 }
 .opening-parenthesis {
-  width: 30px;
-  height: 30px;
+  min-width: 30px;
+  min-height: 30px;
   background: url(/StarWars.png) -165px -405px;
 }
 .closing-parenthesis {
-  width: 30px;
-  height: 30px;
+  min-width: 30px;
+  min-height: 30px;
   background: url(/StarWars.png) -220px -405px;
 }
 
 .box {
-  width: 30px;
-  height: 30px;
+  min-width: 30px;
+  min-height: 30px;
   background: url(/StarWars.png) -271px -405px;
 }
 
 .credit {
-  width: 30px;
-  height: 30px;
+  min-width: 30px;
+  min-height: 30px;
   background: url(/StarWars.png) -323px -405px;
 }
 .space {
-  width: 30px;
-  height: 30px;
+  min-width: 30px;
+  min-height: 30px;
   background: url(/StarWars.png) -374px -405px; /* Example position for space */
 }
