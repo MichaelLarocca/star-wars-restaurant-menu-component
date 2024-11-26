@@ -5,8 +5,8 @@ import Navbar from "./components/Navbar/Navbar.jsx";
 import "./App.css";
 
 function App() {
-  const [isDarkMode, toggleDarkMode] = useDarkMode(true);
-  const [isAurebesh, setIsAurebesh] = useState(false);
+  const [isDarkMode, toggleDarkMode] = useDarkMode(false);
+  const [isAurebesh, setIsAurebesh] = useState(true);
   const [isVertical, setIsVertical] = useState(false);
 
   const toggleIsAurebesh = () => setIsAurebesh((prevState) => !prevState);

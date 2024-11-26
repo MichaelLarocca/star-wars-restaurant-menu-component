@@ -13,17 +13,17 @@ function Navbar({
       <ToggleButton
         onClick={toggleDarkMode}
         isActive={isDarkMode}
-        label="Toggle Theme"
+        label="Toggle DarkMode"
       />
       <ToggleButton
         onClick={toggleIsAurebesh}
         isActive={isAurebesh}
-        label="Toggle Language"
+        label="Toggle Aurebesh Language"
       />
       <ToggleButton
         onClick={toggleIsVertical}
         isActive={isVertical}
-        label="Toggle Layout"
+        label="Toggle Vertical Layout"
       />
     </nav>
   );
