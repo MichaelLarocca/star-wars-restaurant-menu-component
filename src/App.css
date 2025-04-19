@@ -1,27 +1,28 @@
 body {
-  background-color: #333;
-  color: whitesmoke;
-  font-family: "Orbitron", sans-serif; /* Set Orbitron globally */
-  font-weight: 400;
-  font-style: normal;
+	background-color: #333;
+	color: whitesmoke;
+	font-family: "Orbitron", sans-serif; /* Set Orbitron globally */
+	font-weight: 400;
+	font-style: normal;
+	letter-spacing: 10px;
 }
 
 button {
-  margin-bottom: 15px;
+	margin-bottom: 15px;
 }
 
 .app-container {
-  min-height: 100vh;
-  margin: 0;
-  transition: background-color 0.3s ease, color 0.3s ease;
+	min-height: 100vh;
+	margin: 0;
+	transition: background-color 0.3s ease, color 0.3s ease;
 }
 
 .dark-mode {
-  background-color: #333;
-  color: whitesmoke;
+	background-color: #333;
+	color: whitesmoke;
 }
 
 .light-mode {
-  background-color: white;
-  color: black;
+	background-color: white;
+	color: black;
 }
