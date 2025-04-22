@@ -26,11 +26,13 @@ function App() {
       <h1>Aurebesh Translator</h1>
 
       <AurebeshTranslatorComponent
-        data={`may the force be with you!`}
+        data={`may the 4th be with you!`}
         scale={0.5}
         isWhite={isDarkMode}
         isVertical={isVertical}
         isAurebesh={isAurebesh}
+        verticalLetterSpacing = "-7px"
+        horizontalLetterSpacing = "10px"
       />
     </div>
   );

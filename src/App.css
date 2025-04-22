@@ -1,10 +1,9 @@
 body {
 	background-color: #333;
 	color: whitesmoke;
-	font-family: "Orbitron", sans-serif; /* Set Orbitron globally */
+	font-family: "Orbitron", sans-serif;
 	font-weight: 400;
 	font-style: normal;
-	letter-spacing: 10px;
 }
 
 button {

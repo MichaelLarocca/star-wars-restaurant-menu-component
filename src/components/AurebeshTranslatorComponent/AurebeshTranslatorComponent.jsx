@@ -4,14 +4,21 @@ import cssFile from "../AurebeshTranslatorComponent/AurebeshTranslatorComponent.
 
 function AurebeshTranslatorComponent({
   data,
+  isAurebesh = true,
   scale = 1,
   isWhite = false,
   isVertical = false,
-  isAurebesh = true,
+  verticalLetterSpacing = "-7px",
+  horizontalLetterSpacing = "10px",
+  
 }) {
   return (
     <div
-      style={{ display: isVertical ? "block" : "flex", alignItems: "center" }}
+      style={{ 
+        display: isVertical ? "block" : "flex", 
+        alignItems: "center",
+        letterSpacing: isVertical ? verticalLetterSpacing : horizontalLetterSpacing,
+       }}
       className={isVertical && !isAurebesh ? cssFile.verticalText : ""}
     >
       {isAurebesh ? aurebeshTranslator(data, scale, isWhite, isVertical) : data}
