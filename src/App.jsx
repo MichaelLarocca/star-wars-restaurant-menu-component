@@ -31,7 +31,7 @@ function App() {
         isWhite={isDarkMode}
         isVertical={isVertical}
         isAurebesh={isAurebesh}
-        verticalLetterSpacing = "7px"
+        verticalLetterSpacing = "-7px"
         horizontalLetterSpacing = "10px"
         fontSize={"16px"}
       />
