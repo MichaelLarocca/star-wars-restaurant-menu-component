@@ -1,3 +1,7 @@
+.aurebeshTranslator {
+	margin: 25px; 
+  }
+
 .verticalText {
 	writing-mode: vertical-rl;
 	text-orientation: upright;

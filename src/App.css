@@ -1,4 +1,7 @@
 body {
+	margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 	background-color: #333;
 	color: whitesmoke;
 	font-family: "Orbitron", sans-serif;
@@ -8,6 +11,10 @@ body {
 
 button {
 	margin-bottom: 15px;
+}
+
+h1 {
+	margin-left: 25px;
 }
 
 .app-container {

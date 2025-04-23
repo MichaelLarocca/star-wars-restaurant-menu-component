@@ -10,16 +10,18 @@ function AurebeshTranslatorComponent({
   isVertical = false,
   verticalLetterSpacing = "-7px",
   horizontalLetterSpacing = "10px",
+  fontSize = "16px"
   
 }) {
   return (
     <div
+      className={`${cssFile.aurebeshTranslator} ${isVertical && !isAurebesh ? cssFile.verticalText : ""}`}
       style={{ 
         display: isVertical ? "block" : "flex", 
         alignItems: "center",
         letterSpacing: isVertical ? verticalLetterSpacing : horizontalLetterSpacing,
+        fontSize: fontSize,
        }}
-      className={isVertical && !isAurebesh ? cssFile.verticalText : ""}
     >
       {isAurebesh ? aurebeshTranslator(data, scale, isWhite, isVertical) : data}
     </div>
