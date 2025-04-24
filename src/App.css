@@ -1,4 +1,40 @@
 body {
+	margin: 0; /* Remove default margin */
+	padding: 0; /* Remove default padding */
+	box-sizing: border-box; /* Include padding and border in element's total width and height */
+	background-color: #333; /* Set background color to dark gray */
+	color: whitesmoke; /* Set text color to a light gray */
+	font-family: "Orbitron", sans-serif; /* Use Orbitron font, fallback to sans-serif */
+	font-weight: 400; /* Set font weight to normal */
+	font-style: normal; /* Set font style to normal */
+  }
+  
+  button {
+	margin-bottom: 15px; /* Add space below buttons */
+  }
+  
+  h1 {
+	margin-left: 25px; /* Add left margin to headings */
+  }
+  
+  .app-container {
+	min-height: 100vh; /* Ensure container takes at least full viewport height */
+	margin: 0; /* Remove default margin */
+	transition: background-color 0.3s ease, color 0.3s ease; /* Smooth transition for background and text color changes */
+  }
+  
+  .dark-mode {
+	background-color: #333; /* Dark mode background color */
+	color: whitesmoke; /* Dark mode text color */
+  }
+  
+  .light-mode {
+	background-color: white; /* Light mode background color */
+	color: black; /* Light mode text color */
+  }
+
+
+/* body {
 	margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -31,4 +67,4 @@ h1 {
 .light-mode {
 	background-color: white;
 	color: black;
-}
+} */
