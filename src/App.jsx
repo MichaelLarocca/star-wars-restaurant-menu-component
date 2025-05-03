@@ -85,7 +85,7 @@ function App() {
           fontSize={"16px"} // Font size of the text
         />
         <AurebeshTranslatorComponent
-          data={`$10 - greedo’s burritos`} // Text to be translated
+          data={`$19 - greedo’s burritos`} // Text to be translated
           isAurebesh={isAurebesh} // Toggle for Aurebesh translation
           scale={.5} // Scale of the text
           isWhite={isDarkMode} // Text color based on dark mode
@@ -95,7 +95,7 @@ function App() {
           fontSize={"16px"} // Font size of the text
         />
         <AurebeshTranslatorComponent
-          data={`$9 - tusken raider taters `} // Text to be translated
+          data={`$15 - tusken raider taters `} // Text to be translated
           isAurebesh={isAurebesh} // Toggle for Aurebesh translation
           scale={.5} // Scale of the text
           isWhite={isDarkMode} // Text color based on dark mode
@@ -105,7 +105,7 @@ function App() {
           fontSize={"16px"} // Font size of the text
         />
         <AurebeshTranslatorComponent
-          data={`$14 - bantha wings`} // Text to be translated
+          data={`$18 - bantha wings`} // Text to be translated
           isAurebesh={isAurebesh} // Toggle for Aurebesh translation
           scale={.5} // Scale of the text
           isWhite={isDarkMode} // Text color based on dark mode
@@ -115,7 +115,7 @@ function App() {
           fontSize={"16px"} // Font size of the text
         />        
         <AurebeshTranslatorComponent
-          data={`$8 - wookiee wontons`} // Text to be translated
+          data={`$17 - wookiee wontons`} // Text to be translated
           isAurebesh={isAurebesh} // Toggle for Aurebesh translation
           scale={.5} // Scale of the text
           isWhite={isDarkMode} // Text color based on dark mode
