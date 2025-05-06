@@ -88,6 +88,17 @@ function App() {
         isVertical={isVertical}
       />
 
+      <AurebeshTranslatorComponent
+        data={`menu`}
+        isAurebesh={isAurebesh}
+        scale={1.5}
+        isWhite={isDarkMode}
+        isVertical={false}
+        verticalLetterSpacing="-7px"
+        horizontalLetterSpacing="10px"
+        fontSize={"50px"}
+      />
+
       {meals.map((meal, mealIndex) => (
         <div key={mealIndex}>
           <div>
