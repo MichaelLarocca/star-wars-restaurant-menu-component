@@ -18,8 +18,9 @@ function App() {
     {
       category: "From the Cantina",
       image: Anakin, // Placeholder image
-      slogan: "This is where the fun begins!",
+      slogan: "hon shots first!",
       items: [
+        { price: "$3", name: "hon shots" },
         { price: "$8", name: "Jedi Shirley Temple" },
         { price: "$12", name: "Mangolorian Martini" },
         { price: "$10", name: "Qui Gon's Gin" },
@@ -30,7 +31,7 @@ function App() {
     {
       category: "Ackbar’s Snackbar",
       image: Anakin, // Same placeholder image
-      slogan: "This is where the fun begins!",
+      slogan: "it's a wrap!",
       items: [
         { price: "$6", name: "Skywalker Ranch French Fries" },
         { price: "$8", name: "They Fry Now?? (Fried Cauliflower)" },
@@ -41,7 +42,7 @@ function App() {
     {
       category: "The Solo Menu",
       image: Anakin, // Same placeholder image
-      slogan: "This is where the fun begins!",
+      slogan: "i got a good feeling about this!",
       items: [
         { price: "$14", name: "Boba Fettaccini" },
         { price: "$13", name: "General Hux Chicken" },
@@ -52,7 +53,7 @@ function App() {
     {
       category: "Padawan Treats",
       image: Anakin, // Same placeholder image
-      slogan: "This is where the fun begins!",
+      slogan: "there are too many choices! what are we going to choose?",
       items: [
         { price: "$5", name: "Baby Yoda Boba" },
         { price: "$4", name: "Kaminoan Cola" },
@@ -64,7 +65,7 @@ function App() {
     {
       category: "The Final Order",
       image: Anakin, // Same placeholder image
-      slogan: "This is where the fun begins!",
+      slogan: "he calls it the final order!",
       items: [
         { price: "$9", name: "Chocolate Mouse-tafar Cake" },
         { price: "$8", name: "Wookie Cookies" },
