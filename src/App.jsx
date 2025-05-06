@@ -32,7 +32,6 @@ function App() {
       image: Anakin, // Same placeholder image
       slogan: "This is where the fun begins!",
       items: [
-        { price: "$18", name: "This is Where the Fun Begins (Appetizer Sampler)" },
         { price: "$6", name: "Skywalker Ranch French Fries" },
         { price: "$8", name: "They Fry Now?? (Fried Cauliflower)" },
         { price: "$10", name: "Dark Sliders" },
@@ -46,7 +45,6 @@ function App() {
       items: [
         { price: "$14", name: "Boba Fettaccini" },
         { price: "$13", name: "General Hux Chicken" },
-        { price: "$16", name: "That’s Not How the Force Works Pizza" },
         { price: "$15", name: "There’s Always a Bigger Fish" },
         { price: "$18", name: "R2 Cheese 2 Pizza" },
       ],
@@ -101,7 +99,7 @@ function App() {
 
       {meals.map((meal, mealIndex) => (
         <div key={mealIndex}>
-          <div>
+          <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'center', textAlign: 'center' }}>
             <img src={meal.image} alt={`${meal.category} Image`} style={{ width: '300px', height: 'auto', display: 'flex', flexWrap: 'wrap' }} />
             <div>
               <em>
