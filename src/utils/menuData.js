@@ -1,13 +1,18 @@
-import Anakin from "/Anakin.png";
+import Ackbar from "../images/Ackbar.png"; // Placeholder image for Ackbar's Snackbar
+import Anakin from "../images/Anakin.png"; // Placeholder image for all categories
+import HanSolo from "../images/HanSolo.jpg"; // Placeholder image for Han Solo
+import HanSoloGoodFelling from "../images/HanSoloGoodFeeling.png"; // Placeholder image for Han Solo's good feeling
+import Poe from "../images/Poe.png"; // Placeholder image for Poe
+import Younglings from "../images/Younglings.png"; // Placeholder image for Youngling
 
  // Array of meal categories, images, slogans, and items
  export const meals = [
     {
       category: "From the Cantina",
-      image: Anakin, // Placeholder image
-      slogan: "hon shots first!",
+      image: HanSolo, // Placeholder image
+      slogan: "Han shots first!",
       items: [
-        { price: "$3", name: "hon shots" },
+        { price: "$3", name: "han shots" },
         { price: "$8", name: "Jedi Shirley Temple" },
         { price: "$12", name: "Mangolorian Martini" },
         { price: "$10", name: "Qui Gon's Gin" },
@@ -17,7 +22,7 @@ import Anakin from "/Anakin.png";
     },
     {
       category: `Ackbar's Snackbar`,
-      image: Anakin, // Same placeholder image
+      image: Ackbar, // Same placeholder image
       slogan: "it's a wrap!",
       items: [
         { price: "$6", name: "Skywalker Ranch French Fries" },
@@ -28,8 +33,8 @@ import Anakin from "/Anakin.png";
     },
     {
       category: "The Solo Menu",
-      image: Anakin, // Same placeholder image
-      slogan: "i got a good feeling about this!",
+      image: HanSoloGoodFelling, // Same placeholder image
+      slogan: "I got a good feeling about this!",
       items: [
         { price: "$14", name: "Boba Fettaccini" },
         { price: "$13", name: "General Hux Chicken" },
@@ -39,7 +44,7 @@ import Anakin from "/Anakin.png";
     },
     {
       category: "Padawan Treats",
-      image: Anakin, // Same placeholder image
+      image: Younglings, // Same placeholder image
       slogan: "there are too many choices! what are we going to choose?",
       items: [
         { price: "$5", name: "Baby Yoda Boba" },
@@ -51,7 +56,7 @@ import Anakin from "/Anakin.png";
     },
     {
       category: "The Final Order",
-      image: Anakin, // Same placeholder image
+      image: Poe, // Same placeholder image
       slogan: "he calls it the final order!",
       items: [
         { price: "$9", name: "Chocolate Mouse-tafar Cake" },

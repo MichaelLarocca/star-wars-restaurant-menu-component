@@ -62,6 +62,10 @@ body {
 	height: auto;
 	display: flex;
 	flex-wrap: wrap;
+	border: 5px solid black;
+	border-radius: 25px;
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); /* Add shadow to images */
+	margin-top: 50px;
   }
   
   .translate-left {
