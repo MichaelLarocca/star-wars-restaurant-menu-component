@@ -55,7 +55,7 @@ function App() {
             </div>
           </div>
           <div className="menu-container">
-            <div className="meal-category">
+            <div className="meal-category background-color-gray border-radius-rounded">
               <AurebeshTranslatorComponent
                 data={`*${meal.category}*`}
                 isAurebesh={isAurebesh}

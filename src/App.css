@@ -37,7 +37,8 @@ body {
   }
 
   .menu-container {
-	border: 7px solid black; /* Border around the menu */
+	border: 2px solid rgba(0, 0, 0, 0.3); /* Border around the menu */
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); /* Add shadow to images */
 	display: flex; /* Use flexbox for layout */
 	justify-content: flex-start; /* Align items to the start of the flex container */
 	align-items: center; /* Center items vertically */
@@ -64,6 +65,7 @@ body {
 	flex-wrap: wrap;
 	border: 5px solid black;
 	border-radius: 25px;
+	border: 2px solid rgba(0, 0, 0, 0.3); /* Border around the menu */
 	box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); /* Add shadow to images */
 	margin-top: 50px;
   }
@@ -72,4 +74,11 @@ body {
 	transform: translateX(-50px);
   }
 
+  .background-color-gray {
+	background-color: #bababa;
+  }
+
+  .border-radius-rounded {
+	border-radius: 25px; /* Rounded corners for images */
+  }
   
