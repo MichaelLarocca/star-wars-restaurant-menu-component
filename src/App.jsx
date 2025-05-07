@@ -71,7 +71,7 @@ function App() {
               {meal.items.map((item, itemIndex) => (
                 <AurebeshTranslatorComponent
                   key={itemIndex}
-                  data={`${item.price} - ${item.name}`}
+                  data={`${item.price} : ${item.name}`}
                   isAurebesh={isAurebesh}
                   scale={.5}
                   isWhite={isDarkMode}
