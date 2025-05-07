@@ -76,6 +76,7 @@ const aurebeshMap = {
   "@": { class: "at", position: "-218px -350px" },
   "#": { class: "pound", position: "-271px -350px" },
   "'": { class: "apostrophe", position: "-324px -348px" },
+  "-": { class: "apostrophe", position: "-324px -348px" },
   "!": { class: "exclamation-point", position: "-375px -350px" },
   "": { class: "", position: "" },
   '"': { class: "double-quote", position: "-425px -350px" },

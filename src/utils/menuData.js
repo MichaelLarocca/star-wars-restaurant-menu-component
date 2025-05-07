@@ -16,7 +16,7 @@ import Anakin from "/Anakin.png";
       ],
     },
     {
-      category: "Ackbar’s Snackbar",
+      category: `Ackbar's Snackbar`,
       image: Anakin, // Same placeholder image
       slogan: "it's a wrap!",
       items: [
@@ -33,7 +33,7 @@ import Anakin from "/Anakin.png";
       items: [
         { price: "$14", name: "Boba Fettaccini" },
         { price: "$13", name: "General Hux Chicken" },
-        { price: "$15", name: "There’s Always a Bigger Fish" },
+        { price: "$15", name:  `There's Always a Bigger Fish` },
         { price: "$18", name: "R2 Cheese 2 Pizza" },
       ],
     },
