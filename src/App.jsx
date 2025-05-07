@@ -37,8 +37,8 @@ function App() {
 
       {meals.map((meal, mealIndex) => (
         <div key={mealIndex}>
-          <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'center', textAlign: 'center' }}>
-            <img src={meal.image} alt={`${meal.category} Image`} style={{ width: '300px', height: 'auto', display: 'flex', flexWrap: 'wrap' }} />
+          <div className="flex-column-center">
+            <img src={meal.image} alt={`${meal.category} Image`} className="image-style" />
             <div>
               <em>
                 <AurebeshTranslatorComponent
@@ -67,7 +67,7 @@ function App() {
                 fontSize={"30px"}
               />
             </div>
-            <div style={{ transform: 'translateX(-50px)' }}>
+            <div className="translate-left">
               {meal.items.map((item, itemIndex) => (
                 <AurebeshTranslatorComponent
                   key={itemIndex}
