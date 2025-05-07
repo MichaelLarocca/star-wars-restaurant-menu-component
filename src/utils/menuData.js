@@ -21,6 +21,18 @@ import Younglings from "../images/Younglings.png"; // Placeholder image for Youn
       ],
     },
     {
+      category: "appetizers",
+      image: Anakin, // Placeholder image
+      slogan: "this is where the fun begins!",
+      items: [
+        { price: "$12", name: "obi wan pierogis" },
+        { price: "$19", name: "greedo's burritos" },
+        { price: "$15", name: "tusken rader taters" },
+        { price: "$18", name: "bantha wings" },
+        { price: "$17", name: "wookie wontons" },
+      ],
+    },
+    {
       category: `Ackbar's Snackbar`,
       image: Ackbar, // Same placeholder image
       slogan: "it's a wrap!",
