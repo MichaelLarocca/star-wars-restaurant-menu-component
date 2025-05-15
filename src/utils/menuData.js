@@ -62,7 +62,7 @@ import Younglings from "../images/Younglings.png"; // Placeholder image for Youn
         { price: "$5", name: "Baby Yoda Boba" },
         { price: "$4", name: "Kaminoan Cola" },
         { price: "$4", name: "Mountain Dew It!" },
-        { price: "$7", name: "BB-Steak" },
+        { price: "$7", name: "BB-Steak Fries" },
         { price: "$6", name: "Podracing Popsicles" },
       ],
     },

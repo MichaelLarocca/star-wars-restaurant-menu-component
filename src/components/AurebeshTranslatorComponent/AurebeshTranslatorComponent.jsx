@@ -15,17 +15,17 @@ function AurebeshTranslatorComponent({
   fontSize = "16px" // Font size of the text
 }) {
   return (
-    <div
-      className={`${cssFile.aurebeshTranslator} ${isVertical && !isAurebesh ? cssFile.verticalText : ""}`}
-      style={{ 
-        display: isVertical ? "block" : "flex", // Display style based on text orientation
-        alignItems: "center",
-        letterSpacing: isVertical ? verticalLetterSpacing : horizontalLetterSpacing, // Apply appropriate letter spacing
-        fontSize: fontSize, // Set font size
-       }}
-    >
-      {isAurebesh ? aurebeshTranslator(data, scale, isWhite, isVertical) : data} {/* Render translated or original text */}
-    </div>
+    <div 
+        className={`${cssFile.aurebeshTranslator} ${isVertical && !isAurebesh ? cssFile.verticalText : ""}`}
+        style={{ 
+          display: isVertical ? "block" : "flex", // Display style based on text orientation
+          alignItems: "center",
+          letterSpacing: isVertical ? verticalLetterSpacing : horizontalLetterSpacing, // Apply appropriate letter spacing
+          fontSize: fontSize, // Set font size
+        }}
+      >
+        {isAurebesh ? aurebeshTranslator(data, scale, isWhite, isVertical) : data} {/* Render translated or original text */}
+      </div>
   );
 }
 

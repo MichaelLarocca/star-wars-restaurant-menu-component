@@ -36,12 +36,20 @@ body {
 	color: black; /* Light mode text color */
   }
 
+  /* .menu-container {
+	border: 2px solid rgba(0, 0, 0, 0.3); 
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); 
+	display: flex; 
+	justify-content: flex-start; 
+	align-items: center; 
+	border-radius: 25px; 
+	width: 1000px;
+	margin: 25px;
+  } */
+
   .menu-container {
 	border: 2px solid rgba(0, 0, 0, 0.3); /* Border around the menu */
 	box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); /* Add shadow to images */
-	display: flex; /* Use flexbox for layout */
-	justify-content: flex-start; /* Align items to the start of the flex container */
-	align-items: center; /* Center items vertically */
 	border-radius: 25px; /* Rounded corners for menu */
 	width: 1000px;
 	margin: 25px;
@@ -49,11 +57,19 @@ body {
 
   .meal-category {
 	margin: 50px;
+	width: 75px;
   }
 
   .flex-column-center {
 	display: flex;
 	flex-direction: column;
+	align-items: center;
+	text-align: center;
+  }
+
+  .flex-test {
+	display: flex;
+	flex-direction: row;
 	align-items: center;
 	text-align: center;
   }

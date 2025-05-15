@@ -36,7 +36,7 @@ function App() {
       />
 
       {meals.map((meal, mealIndex) => (
-        <div key={mealIndex}>
+        <div key={mealIndex} className="menu-container">
           <div className="flex-column-center">
             <img src={meal.image} alt={`${meal.category} Image`} className="image-style" />
             <div>
@@ -44,7 +44,7 @@ function App() {
                 <AurebeshTranslatorComponent
                   data={`"${meal.slogan}"`}
                   isAurebesh={isAurebesh}
-                  scale={.4}
+                  scale={0.4}
                   isWhite={isDarkMode}
                   isVertical={false}
                   verticalLetterSpacing="-7px"
@@ -54,7 +54,7 @@ function App() {
               </em>
             </div>
           </div>
-          <div className="menu-container">
+          <div className="flex-test">
             <div className="meal-category background-color-gray border-radius-rounded">
               <AurebeshTranslatorComponent
                 data={`*${meal.category}*`}
@@ -73,7 +73,7 @@ function App() {
                   key={itemIndex}
                   data={`${item.price} : ${item.name}`}
                   isAurebesh={isAurebesh}
-                  scale={.5}
+                  scale={0.5}
                   isWhite={isDarkMode}
                   isVertical={false}
                   verticalLetterSpacing="-7px"
